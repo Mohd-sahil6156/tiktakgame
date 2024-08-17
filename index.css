@@ -1,0 +1,58 @@
+html
+{
+    height:100%;
+    display: grid;
+    place-items: center;
+    background-image: url("IMAGE/desktop-wallpaper-2d-background-2d-nature.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+*
+{
+    padding:0;
+    margin:0;
+}
+#new_game
+{
+    display:block;
+    height:10vmin;
+    width:20vmin;
+    font-size:3vmin;
+    text-decoration:none;
+    border:none;
+    border-radius:1vmin;
+    box-shadow: 5px 5px 30px black;
+    background-color:rgba(0,0,255,1);
+    color:white;
+}
+#new_game:hover,#new_game:active
+{
+    background-color:rgba(0,0,255,0.70);
+    border:10px solid blue;
+}
+#hb
+{
+    background:blur(30px);
+    font-size:10vmin;
+    text-transform:capitalize;
+    color:rgba(0,0,255,0.70);
+    font-weight: 800 ;
+    text-align: center;
+    display:inline-block;
+    position:absolute;
+    top:10vmin;
+    left:60vmin;
+    /* margin-top:-30vmin; */
+}
+@media (max-width:980px) 
+{
+#hb
+{
+    position:fixed;
+    top:40vmin;
+
+    left: 7vmin;
+}
+
+} 
