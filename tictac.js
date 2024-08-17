@@ -174,12 +174,14 @@ show_bttn.addEventListener("click",()=>
   {
   container.style.display="flex";
   show_bttn.innerText="Show out";
+  div.style.display="none";
   c=false;
   
 
   }
   else
   {
+    div.style.display="flex";
     container.style.display="none";
     show_bttn.innerText="Show in";
     c=true;

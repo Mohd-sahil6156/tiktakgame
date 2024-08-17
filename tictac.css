@@ -228,14 +228,14 @@ position:absolute;
     #reset_btn
     {
         position:fixed;
-        bottom:31vmin;
+        bottom:50px;
         right:-10vmin;
     }
     #show_btn
     {
         position:fixed;
         /* top:60vmin; */
-        bottom:31vmin;
+        bottom:50px;
         left:10vmin;
     }
 }
